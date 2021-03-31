@@ -1,0 +1,16 @@
+#!/bin/bash
+
+hostname=$HOSTNAME
+echo "Welcome to $hostname server"
+
+echo "You are enter in the sever please insert all the informetion"
+
+echo "Enter your name:"
+echo
+read name
+
+echo "Hello, $name how are you?"
+
+echo "I'm fine, $name"
+
+

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+HELLO=local
+
+function hello {
+
+	local HELLO=private
+	echo $HELLO
+
+}
+
+hello
+echo $HELLO
+
+

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+name="Jay"
+age=25
+total=25.00
+echo $name
+echo $age 
+echo $total
+
+
+sent="THis is info for jay"
+echo $sent

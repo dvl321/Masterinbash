@@ -1,0 +1,15 @@
+#!/bin/bash
+#Aurthor name:Jay shukla
+#Date:26 Mar,2021
+#Use: To login mysql by using user
+
+read -p "Enter the username for which you want to login:" mysql_user
+
+echo
+
+read -s -p "Enter the password for the same user:" STR_pass
+
+mysql -u $mysql_user -p $STR_pass
+
+
+

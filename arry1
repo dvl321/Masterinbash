@@ -1,0 +1,5 @@
+#!/bin/bash
+
+myarr=(one two three four)
+
+unset ${myarr[1]}

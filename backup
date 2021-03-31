@@ -1,0 +1,16 @@
+#!/bin/bash
+
+of=/var/myback/backup-$(date +%y-%m-%d).tgz  #Go to /var/mybackup and make bakcup file name as a date and store in of
+
+#of=/var/myback/backup-jaynew.tgz
+
+tar -cvf $of /home #It  make the tar file name as a of variable and archiving /home
+
+ls -ltr /var/myback/ # It shows content under /var/mybackup
+
+file_size=$(du -sch $of) #It shows the backup full size
+
+echo "The total size of backup file $file_size" 
+
+
+

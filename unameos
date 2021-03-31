@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Hmm, Need to check os type"
+echo -n "It is os"
+uname

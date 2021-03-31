@@ -1,0 +1,11 @@
+#!/bin/bash
+
+read -p "Enter the sername which youwant to take ssh connection:" ssh_server
+
+echo
+
+read -p "Enter the name of the user which you would like to login:" ssh_user
+
+ssh root@IPaddress
+
+ssh $ssh_user@$ssh_server

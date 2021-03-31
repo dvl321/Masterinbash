@@ -1,0 +1,7 @@
+for filename in *
+
+do 
+
+wc -c $filename
+
+done

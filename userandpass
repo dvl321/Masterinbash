@@ -1,0 +1,34 @@
+#!/bin/bash
+
+echo "Please feel below details to login-:"
+
+echo
+
+read -p "Enter your name:" name
+
+echo 
+
+read -s -p "Hello, $name please enter New Password:" pass1
+
+echo 
+
+read -s -p "Please re-enter the password:" pass2
+
+if [ $pass1 = $pass2 ]
+
+then
+echo
+
+	echo "Password is matched for $name and it has been stored please keep in mind"
+echo
+else
+echo
+	echo "Password does not match for  $name"
+
+echo
+
+read -n4 -p "Please enter 'Exit' for exit:"
+
+echo
+
+fi

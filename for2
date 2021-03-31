@@ -1,0 +1,7 @@
+for i in run eat swim figh
+
+do 
+
+echo jay is $i
+
+done

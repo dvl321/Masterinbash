@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "$user earns $4"
+
+echo '$user earns $4'
+
+echo "$user earns \$4"

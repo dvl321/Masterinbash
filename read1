@@ -1,0 +1,11 @@
+#!/bin/bash
+#AuthorName: Jay Shukla
+#ScriptPurpose: First read program
+#Date: 23 Mar, 2021
+
+echo -n "Hello $(basename $0)! May I ask your name please:"
+read 
+
+echo "Hello $REPLY"
+
+exit 0

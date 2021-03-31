@@ -1,0 +1,6 @@
+#!/bin/bash
+
+arr1=(sun mon tue wed thu fri)
+
+
+echo ${arr1[3]}

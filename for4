@@ -1,0 +1,9 @@
+for filename in *
+
+
+do
+
+	echo "Cpopying $filename to $filename.sh all the files to .sh content"
+	cp $filename $filename.sh
+
+done

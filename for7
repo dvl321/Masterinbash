@@ -1,0 +1,13 @@
+max=0
+
+for ((i=10;i>=max;i--))
+
+do
+
+echo "$i....."
+sleep 1
+
+done
+
+echo
+
